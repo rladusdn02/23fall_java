@@ -17,7 +17,7 @@ public class TV {
 	{
 		TV myTV = new TV("LG", 2023, 72);
 		myTV.show();
-		System.out.println("2211366 김연우); // 본인 학번 이름
+		System.out.println("2211366 김연우"); // 본인 학번 이름
 	}
 	
 }
