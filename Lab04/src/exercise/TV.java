@@ -3,9 +3,10 @@ package exercise;
 public class TV {
 	// 제조사, 제조년도, 사이즈 변수 선언
 
-	public TV(/*제조사, 제조년도, 사이즈*/)
+	public TV(String c, int y, int s)/*제조사, 제조년도, 사이즈*/
 	{
 		//파라미터 값을 변수에 할당
+		company=c; year=y; size=s;
 	}
 	
 	public void show()
