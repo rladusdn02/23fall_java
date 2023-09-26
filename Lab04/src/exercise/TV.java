@@ -2,6 +2,10 @@ package exercise;
 
 public class TV {
 	// 제조사, 제조년도, 사이즈 변수 선언
+	String company;
+	int year;
+	int size;
+	
 
 	public TV(String c, int y, int s)/*제조사, 제조년도, 사이즈*/
 	{
