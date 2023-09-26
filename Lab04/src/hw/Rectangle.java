@@ -27,10 +27,11 @@ public class Rectangle {
 	public void show() {
 		//Rectangle rect = new Rectangle();
 		System.out.println("("+x+","+y+")"+"에서"+"크기가"+square()+"인 직사각형");
-	}
+	} 
 	
 	//boolean contains(Rectangle r): 매개변수로 받은 r이 현 사각형 안에 있으면 true 리턴
 	public boolean contains (Rectangle r) {
+		
 		
 	}
 	
