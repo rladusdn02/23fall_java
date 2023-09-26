@@ -6,7 +6,7 @@ public class TV {
 	public TV(String w, int y, int i) /*제조사, 제조년도, 사이즈*/
 	{
 		//파라미터 값을 변수에 할당
-		
+		where=w; year=y; inch=i;
 	}
 	
 	public void show()
