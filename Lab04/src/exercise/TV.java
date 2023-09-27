@@ -2,20 +2,22 @@ package exercise;
 
 public class TV {
 	// 제조사, 제조년도, 사이즈 변수 선언
-	String company;
-	int year;
-	int size;
+	private String product;
+	private int year, size;
 	
 
-	public TV(String c, int y, int s)/*제조사, 제조년도, 사이즈*/
+	public TV(String product, int year, int size)/*제조사, 제조년도, 사이즈*/
 	{
 		//파라미터 값을 변수에 할당
-		company=c; year=y; size=s;
+		this.product = product;
+		this.year=year;
+		this.size=size;
 	}
 	
 	public void show()
 	{
 		// "제조사" 에서 만든 "제조년도"년형 "인치" TV
+		System.out.println(product + "에서 만든" + year + "년형" + size + "TV")
 	}
 
 	public static void main(String[] args) 
