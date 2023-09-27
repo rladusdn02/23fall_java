@@ -17,7 +17,7 @@ public class TV {
 	public void show()
 	{
 		// "제조사" 에서 만든 "제조년도"년형 "인치" TV
-		System.out.println(product + "에서 만든" + year + "년형" + size + "TV");
+		System.out.println(product + "에서 만든 " + year + "년형 " + size + "TV");
 	}
 
 	public static void main(String[] args) 
@@ -25,6 +25,7 @@ public class TV {
 		TV myTV = new TV("LG", 2023, 32);
 		TV myTV2 = new TV("Samsung", 2022, 40);
 		myTV.show();
+		myTV2.show();
 		System.out.println("2211366 김연우"); // 본인 학번 이름
 	}
 	
