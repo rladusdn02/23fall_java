@@ -17,7 +17,7 @@ public class TV {
 	public void show()
 	{
 		// "제조사" 에서 만든 "제조년도"년형 "인치" TV
-		System.out.println(product + "에서 만든" + year + "년형" + size + "TV")
+		System.out.println(product + "에서 만든" + year + "년형" + size + "TV");
 	}
 
 	public static void main(String[] args) 
