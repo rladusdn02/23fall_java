@@ -22,7 +22,8 @@ public class TV {
 
 	public static void main(String[] args) 
 	{
-		TV myTV = new TV("LG", 2023, 72);
+		TV myTV = new TV("LG", 2023, 32);
+		TV myTV2 = new TV("Samsung", 2022, 40);
 		myTV.show();
 		System.out.println("2211366 김연우"); // 본인 학번 이름
 	}
