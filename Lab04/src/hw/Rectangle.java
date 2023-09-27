@@ -31,7 +31,7 @@ public class Rectangle {
 	
 	//boolean contains(Rectangle r): 매개변수로 받은 r이 현 사각형 안에 있으면 true 리턴
 	public boolean contains (Rectangle r) {
-		
+		// return (x<r.x && (x+width) > (r.x + width)
 		
 	}
 	
