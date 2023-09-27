@@ -24,9 +24,11 @@ class ArrayUtil
 	public static void print(int[] a) 
 	{ 
 		// 파라미터로 받아온 배열 출력 - for문 사용
+		System.out.print("[");
 		for (int i=0; i<a.length; i++) {
-			System.out.println("]");
+			System.out.print(a[i] + " ");
 		}
+		System.out.println("]");
 	}
 }
 
